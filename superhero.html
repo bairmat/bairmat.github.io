@@ -5,11 +5,33 @@
 		<title>
 			Superhero
 		</title>
+
+		 <style>
+			 th
+			 {
+				 /* font-size: 32pt;*/
+				 font-family: Arial;
+				 border:2px solid red;
+				 width:250px;
+				 padding:25px;
+			 }
+			 table
+			 {
+				 border: 5px solid red;
+			 }
+             caption {
+                 font-family: Arial;
+                 font-size: 40pt;
+                 font-weight: bold;
+             }
+		 </style>
+
 	</Head>
 	<body>
-		<h1>Favorite Superheroes</h1>
+		
 		<table>
-			<tr>
+			<caption>Favorite Superheroes</caption>
+			<tr style="font-size:200%">
 				<th scope="col">Name</th>
 				<th scope="col">Alias</th>
 				<th scope="col">Image</th>
@@ -18,17 +40,17 @@
 			</tr>
 			<tr>
 				<th scope="row">Spider-Man</th>
-				<th scope="row">Peter Parker</th>
-				<th scope="row"></th>
-				<th scope="row">Climb Walls, Super Strength, Spider Sense</th>
-				<th scope="row">Ethyl Chloride</th>
+				<th>Peter Parker</th>
+				<th><a href="images/spider man.png"><img src="images/spider man.png" height="100px"></a></th>
+				<th>Climb Walls, Super Strength, Spider Sense</th>
+				<th>Ethyl Chloride</th>
 			</tr>
 			<tr>
 				<th scope="row">Flash</th>
-				<th scope="row">Barry Allen</th>
-				<th scope="row"></th>
-				<th scope="row">Super Speed</th>
-				<th scope="row">Stamina</th>
+				<th>Barry Allen</th>
+				<th><a href="images/flash.jpg"><img src="images/flash.jpg" alt="flash" height="100px"></a></th>
+				<th>Super Speed</th>
+				<th>Stamina</th>
 			</tr>
 		</table>
 		<p><a href="index.html">HOME</a></p>
