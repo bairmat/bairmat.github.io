@@ -3,6 +3,10 @@
 
     --favcolor: rgb(251, 126, 37);
 }
+body
+{
+    background-color: bisque;
+}
 h1
 {
     text-align:center;
@@ -21,12 +25,13 @@ section
 p
 {
     text-align:center;
+    font-size: 14pt;
 }
 #mainpic
 {
     border-radius: 20%;
 }
-.button
+div.button
 {
-    text-align : center;
+    text-align: center;
 }
