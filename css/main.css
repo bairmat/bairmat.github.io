@@ -1,0 +1,17 @@
+body
+{
+    background-color: bisque;
+}
+
+h1
+{
+    font-size: 30pt;
+}
+
+li
+{
+    
+    font-size: large;
+    font-weight: 300;
+    border-radius: 10%;
+}
