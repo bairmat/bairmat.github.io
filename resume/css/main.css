@@ -1,0 +1,46 @@
+:root 
+{
+
+    --favcolor: rgb(251, 126, 37);
+}
+body
+{
+    background-color: bisque;
+    font-family: Arial;
+}
+
+h1
+{
+    font-size: 50pt;
+    text-align:center;
+    color: var(--favcolor);
+    background-color: rgb(10,90,100);
+    font-size: 30pt;
+    font-family: arial;
+}
+
+li
+{
+    
+    font-size: large;
+    font-weight: 300;
+    border-radius: 10%;
+}
+div.button
+{
+    text-align: center;
+}
+section
+{
+    border: 3px solid black;
+    margin:20px;
+    padding: 10px;
+    color: var(--favcolor);
+    float:middle;
+}
+.date
+{
+    color:rgb(51, 74, 66);
+    display:block; 
+    float: right;
+}
