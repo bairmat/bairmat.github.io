@@ -1,0 +1,61 @@
+:root 
+{
+
+    --favcolor: rgb(255, 255, 255);
+}
+body
+{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+h1
+{
+    text-align:center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: var(--favcolor);
+    background-color: rgb(0, 0, 0);
+    font-size: 50pt;
+}
+h2{
+    
+    text-align:center;
+    color: var(--favcolor);
+    background-color: rgb(0, 0, 0);
+    font-size: 20pt
+}
+h3{
+    
+    text-align:center;
+    color: var(--favcolor);
+    background-color: rgb(0, 0, 0);
+    font-size: 15pt;
+}
+
+li
+{
+    text-align: center ;
+    color:aliceblue;
+    font-size: large;
+    font-size: 20pt;
+    padding-right: 2%;
+
+}
+div.button
+{
+    text-align: center;
+}
+iframe
+{
+    width: 90vw;
+    height: 50.63vw;
+}
+a{
+    color:aliceblue;
+    text-align: center;
+}
+p{
+    font-size: large; 
+    font-family:'Segoe UI';
+    text-align: center;
+}
